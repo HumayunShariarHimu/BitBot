@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Trading Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Crypto Investment Bot</h1>
+        </header>
+
+        <div class="crypto-info">
+            <h2 id="crypto-name">Bitcoin (BTC)</h2>
+            <p>Price: <span id="crypto-price">$0.00</span></p>
+            <p id="price-trend" style="font-weight: bold;">Price is stable</p> <!-- Trend indicator -->
+            <p>50-period SMA: <span id="sma50">0.00</span></p>
+            <p>200-period SMA: <span id="sma200">0.00</span></p>
+
+            <div class="recommendation">
+                <h3>Recommendation:</h3>
+                <p id="recommendation">Loading...</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>© Humayun Shariar Himu</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
